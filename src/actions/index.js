@@ -59,8 +59,9 @@ const deleteStreamAction = (streamID) => {
 //STREAMS action creators
 
 //create
-export const createStream = (formValues) => async (dispatch) => {
-  const response = await streams.post("/streams", formValues);
+export const createStream = (formValues) => async (dispatch, getState) => {
+  const { userId } = getState().auth;
+  const response = await streams.post("/streams", { ...formValues, userId });
   dispatch(createStreamAction(response.data));
 };
 
@@ -81,7 +82,7 @@ export const editStream = (streamID, formValues) => async (dispatch) => {
   const response = await streams.put(`/streams/${streamID}`, formValues);
   dispatch(editStreamAction(response.data));
 };
-//edit one
+//delete one
 export const deleteStream = (streamID) => async (dispatch) => {
   await streams.delete(`/streams/${streamID}`);
   dispatch(deleteStreamAction(streamID));
