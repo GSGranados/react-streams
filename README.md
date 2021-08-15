@@ -4,15 +4,15 @@ This is a React App created using Redux mainly and many other NPM dependencies t
 
 ## Installation
 
-Inside the repository you will have three folders 
+Inside the repository you will have three locations
 
 ```bash
 cd/client
-cd/api
+./ (our Root Folder)
 cd/rtmpserve
 ```
 ### Client
-navigate to the first location on the Command Line and type `npm install` and wait until it installs all dependencies for the client side.
+Open a Terminal Window and navigate to the first location. On the Command Line, type `npm install` and wait until it installs all dependencies for the client side.
 
 ### JSON Server
 Repeat the same process; navigate to the specified location and type `npm install`
