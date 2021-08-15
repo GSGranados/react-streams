@@ -1,6 +1,6 @@
 # React Streams - Streamy
 
-This is a React App created using Redux mainly and many other NPM dependencies to make basic operations to some stream record and ultimately stream video on the app using and RTMP Server and a JSON Server to store the streams' information.
+This is a React App created using Redux mainly and many other NPM dependencies to make basic operations to some stream records and ultimately stream video through the App using a **RTMP Server** and a JSON Server to store the streams' information.
 
 ## Installation
 
