@@ -9,7 +9,7 @@ Inside the repository you will have three locations
 ```bash
 cd/client
 ./ (our Root Folder)
-cd/rtmpserve
+cd/rtmpserver
 ```
 ### Client
 Open a Terminal Window and navigate to the first location. On the Command Line, type `npm install` and wait until it installs all dependencies for the client side.
