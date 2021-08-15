@@ -25,7 +25,7 @@ Once you have all dependencies installed, open `three terminal windows` to run t
 ## Usage
 
 ### Create some streams on the client side.
-1 - Open the React App on your local machine at [localhost:300](http://localhost:3000).
+1 - Open the React App on your local machine at [localhost:3000](http://localhost:3000).
 
 2 - Sign In with your Google Account.
 
