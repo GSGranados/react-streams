@@ -1,0 +1,19 @@
+{
+  "streams": [
+    {
+      "title": "Stream Test 1",
+      "description": "Stream Description 1",
+      "id": 1
+    },
+    {
+      "title": "Programmatic Stream",
+      "description": "It should push me back to the index (edited)",
+      "id": 3
+    },
+    {
+      "title": "A refactored stream",
+      "description": "I have edited this description",
+      "id": 4
+    }
+  ]
+}
