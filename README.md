@@ -7,7 +7,7 @@ This is a React App created using Redux mainly and many other NPM dependencies t
 Inside the repository you will have three locations
 
 ```bash
-cd/client
+cd/api
 ./ (our Root Folder)
 cd/rtmpserver
 ```
